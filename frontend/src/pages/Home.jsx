@@ -35,12 +35,11 @@ function Home() {
 
   return (
 
-
-
     <div className='homeBg'>
     <NavBar navigate={navigate}/>
         <div className='h-screen pt-[60px]'>
-            <h1 className='mt-[500px] text-zinc-200'>Home page </h1>      
+            <h1 className='mt-[500px] text-zinc-200'>Home page</h1> 
+            
          </div>
     </div>
   );
