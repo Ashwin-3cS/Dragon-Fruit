@@ -18,7 +18,7 @@ const Hood = () => {
     <div className='hood'>
       <NavBar navigate={navigate}/>
       <div className='full-vh-background  pt-[60px] '>
-        <h1 className='text-white text-[48px] ml-[40%] italic'></h1>
+        <h1 className='text-white text-[48px] ml-[40%]  italic'></h1>
 
       </div>
     </div>
