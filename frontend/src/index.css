@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+nav a{
+  font-family:"Poppins",sans-serif ;
+  transition: 0.3s;
+}
+nav button{
+  font-family:"Poppins",sans-serif ;
+}
+.logo{
+  font-family: 'Lemon', serif;
+}
+
+
+nav a:hover {
+  color:#0ef;
+}
+
+section{
+  min-height: 100vh;
+  background: #030712  ;
+}
+
+ 
+
+
+html{
+  scroll-behavior: smooth;
+
+}
+
+.full-vh-background {
+  min-height: 100vh;
+}
+
+.dashboard{
+  background: #030712  
+}
+
+
+
+.hood{
+  background: #030712  
+}
+
+
+
+
+
+
+
+
+
