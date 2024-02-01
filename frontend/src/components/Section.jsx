@@ -8,7 +8,7 @@ function Section(){
       
       <section id="home">
         <div className="mt-[60px]">
-          <h1 className="ml-[46.5%] text-slate-300 "></h1>
+          <h1 className="ml-[46.5%] text-slate-300   ">  </h1>
           <p className=" text-slate-300 text-2xl	">
             
           </p>
