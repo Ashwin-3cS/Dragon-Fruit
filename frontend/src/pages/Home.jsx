@@ -39,6 +39,7 @@ function Home() {
     <NavBar navigate={navigate}/>
         <div className='h-screen pt-[60px]'>
             <h1 className='mt-[500px] text-zinc-200'>Home page</h1> 
+            <p className="text-zinc-200">hi </p>
             
          </div>
     </div>
