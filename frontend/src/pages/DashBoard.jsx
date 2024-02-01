@@ -2,8 +2,7 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
 import { useNavigate } from 'react-router-dom';
-// import DonorImageCarousel from '../components/DonorImageCarousel';
-// import RegistrationPortal from '../components/RegistrationPortal';
+
 
 
 const DashBoard = () => {

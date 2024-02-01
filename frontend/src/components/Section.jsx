@@ -14,9 +14,7 @@ function Section(){
           </p>
         </div>
       </section>
-      {/* <section id="ourwork">OurWork</section> */}
-      {/* <section id="team">Team</section> */}
-      {/* <section id="contact">Contact</section> */}
+
 
   </div>
   

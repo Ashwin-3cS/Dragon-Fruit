@@ -8,7 +8,7 @@ import "../App.css";
 
 function NavBar({navigate}) {
   const goToHome = (event) => {
-    event.preventDefault(); // Prevent the default behavior
+    event.preventDefault(); 
     navigate('/');
   };
 
@@ -26,7 +26,7 @@ function NavBar({navigate}) {
 
   return (
     <header className="fixed top-0 left-0 w-full bg-gray-950	p-4  flex  justify-between  items-center  z-50">
-      {/* <a href="#home" className="text-white  text-xl font-bold logo ">Being Human</a> */}
+     
         <Link to="/home" className="text-white text-xl font-bold logo  mt-10  ml-40" onClick={goToHome}>
         XX-App
         </Link>
@@ -39,23 +39,10 @@ function NavBar({navigate}) {
           DashBoard
         </NavLink>
        
-        {/* <Link to="/home" className="text-white">
-          Home
-        </Link> */}
+
         <Link to="/home" className="text-white" onClick={goToHome}>
           Home
         </Link>
-
-        {/* <NavLink to="/ourwork" className="text-white">
-          OurWork
-        </NavLink>
-        <NavLink to="/team" className="text-white">
-          Team
-        </NavLink>
-        <NavLink to="/contact" className="text-white">
-          Contact
-        </NavLink> */}
-        
 
       </nav>
     </header>
