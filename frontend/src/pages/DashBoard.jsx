@@ -21,7 +21,7 @@ const DashBoard = () => {
     <div className='dashboard'>
       <NavBar navigate={navigate}/>
       <div className='h-screen pt-[60px]'>
-        <h1 className='mt-[500px] text-zinc-200'>Dashboard</h1>      
+        <h1 className='mt-[4%] ml-[50%]  text-zinc-200'>Dashboard Page</h1>      
       </div>
     </div>
   );
